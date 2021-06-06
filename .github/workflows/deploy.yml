@@ -12,3 +12,4 @@ jobs:
         username: 'BaniChimu'
         reponame: 'Website'
         token: ${{ secrets.GITHUB_TOKEN }}
+        cname: "dev.domiibunn.live"
