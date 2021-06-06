@@ -8,7 +8,7 @@ export default {};
 
 <style lang="scss" scoped>
 .landing {
-  background-image: url("/assets/bg.jpg");
+  background-image: url(/assets/img/bg.jpg);
   background-size: 100% 100%;
 }
 </style>
