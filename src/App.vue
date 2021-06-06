@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap");
+@import "@/assets/scss/buttons.scss";
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
