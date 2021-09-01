@@ -1,9 +1,9 @@
 <template>
   <header>
     <div class="title">Banī<span>Chīmu</span></div>
-    <div class="buttons">
+    <!-- <div class="buttons">
       <i class="fas fa-sign-in-alt"></i>
-    </div>
+    </div> -->
   </header>
 </template>
 

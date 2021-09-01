@@ -8,7 +8,9 @@
         <div class="title">Banī<span>Chīmu</span></div>
         <div class="tagline">The cutest streaming team on the internet!</div>
         <div class="action">
-          <div class="btn btn-strawberry">Meet Us!</div>
+          <div @click="clicked()" class="btn btn-strawberry">
+            See the schedule!
+          </div>
         </div>
       </div>
     </div>
@@ -16,7 +18,14 @@
 </template>
 
 <script>
-export default {};
+import router from "@/router";
+export default {
+  methods: {
+    clicked() {
+      router.push("/schedule");
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

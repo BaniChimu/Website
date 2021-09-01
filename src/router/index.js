@@ -1,6 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Schedule from "../views/Schedule.vue";
+
+import domiSchedule from "../components/schedule/domiSchedule.vue";
 
 Vue.use(VueRouter);
 
@@ -9,6 +12,18 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/schedule",
+    name: "Schedule",
+    component: Schedule,
+    redirect: "/schedule/domiibunn",
+    children: [
+      {
+        path: "/schedule/domiibunn",
+        component: domiSchedule,
+      },
+    ],
   },
 ];
 

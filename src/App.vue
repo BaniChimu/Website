@@ -35,4 +35,12 @@ body {
   height: calc(100vh - 75px);
   width: 100%;
 }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none; /* no underline */
+  color: inherit;
+}
 </style>
